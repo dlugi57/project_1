@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link href='//fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="styles/style.css">
   <title>Profile de competences</title>
 
   <!-- Le viewport est configuré dans l'en-tête de la page HTML -->
@@ -30,31 +31,25 @@
 </head>
 
 <body>
+  <!-- Section header with profile photo and title -->
   <header>
-    <div>
-      <div>
-        <div>
-          <h1>Dlugosz Piotr</h1>
-          <h2><span>Développeur Java</span></h2>
-          <div>
-            <p> Bonjour je suis Piotr, Développeur Java</p>
-            <p> bientôt diplômé chez Openclassrooms.</p>
-          </div>
-        </div>
-        <div>
-          <img src="img/profile.png" alt="Profile photo">
-        </div>
-      </div>
+    <div class="header-text">
+      <h1 class="white">Dlugosz Piotr</h1>
+      <h2 class="bg-azur">Développeur Java</h2>
+      <p class="white"> Bonjour je suis Piotr, Développeur Java</p>
+      <p class="white"> bientôt diplômé chez Openclassrooms.</p>
+    </div>
+    <div class="header-profile">
+      <img src="img/profile.png" alt="Profile photo">
     </div>
   </header>
-  <main>
-    <div>
-      <div>
-        <i class="fas fa-code coda"></i>
+<!-- MAIN SECTION with competences description -->
+  <main class="blue">
+      <div class="main-icon">
+        <i class="fab fa-java"></i>
       </div>
-
-      <div>
-        <h2>Mes <span>Compétences</span></h2>
+      <div class="main-text">
+        <h2>Mes <span class="bg-azur">compétences</span></h2>
         <p>
           Je crée des applications Java pour le web. Voici quelques exemples<br>
           d’applications sur lesquelles j’ai travaillé :</p>
@@ -63,29 +58,24 @@
           <li>Une application de réservation de tickets de cinéma en ligne</li>
           <li>Une applications SaSS de gestion de projet pour les entreprises</li>
         </ul>
-
         <p>Après avoir terminé mon diplôme de Développeur Web Junior chez
           Openclassrooms, j’ai poursuivi en Développement d’Applications Java.</p>
         <p>Je suis passionné par le développement backend. Je travaille énormément
           avec des méthodes telles que le Domain-Driven Design, les concepts SOLIDs
           et la gestion de projet en agile.</p>
       </div>
-    </div>
-
   </main>
-  <footer>
-    <div>
-      <h3>Retrouvez-moi sur les réseaux</h3>
-      <h3><span>Une idée de projet ?</span> <span>Contactez-moi !</span></h3>
-      <div>
 
+<!-- FOOTER SECTION with social media links -->
+  <footer class="bg-blue white">
+      <h2>Retrouvez-moi sur les réseaux</h2>
+      <h3><span class="bg-azur">Une idée de projet ?</span> Contactez-moi !</h3>
+      <div class="social">
         <a href=""><i class="fab fa-facebook"></i></a>
         <a href="https://github.com/dlugi57"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/dlugos"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/piotr-dlugosz/"><i class="fab fa-linkedin-in"></i></a>
       </div>
-    </div>
   </footer>
-
 </body>
 
 </html>
